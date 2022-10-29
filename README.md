@@ -4,7 +4,7 @@
 Katherine Kapiga
 
 ### GH Pages
-
+https://aves-proxy.github.io/cpnt262-a2/
 
 ### Attributions
 - Utilized [freecodecamp tutorial on drop-down menus](https://www.freecodecamp.org/news/html-drop-down-menu-how-to-add-a-drop-down-list-with-the-select-element/) to remember how to do that.
