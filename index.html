@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CPNT 262 A2</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+  <link href="./css/style.css" rel="stylesheet">
+  <script src="./js/client.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+  <h1>FFXIV Job Picker</h1>
+  <form>
+    <!-- role picker dropdown -->
+    <fieldset>
+      <legend>Role Picker</legend>
+      <label for="roleDropdown">Choose the role you want to play:</label>
+      <select name="roleDropdown" id="roleDropdown" required>
+        <option selected value="unemployed">Choose a role</option>
+        <option value="tank">Tank</option>
+        <option value="healer">Healer</option>
+        <option value="dpsMel">Melee DPS</option>
+        <option value="dpsPhysR">Physical Ranged DPS</option>
+        <option value="dpsMagR">Magical Ranged DPS</option>
+      </select>
+    </fieldset>
+    <button>Submit</button>
+  </form>
+
+  <!-- info section -->
+  <section id="info">
+    <h2 class="role"></h2>
+    <p class="jobs"></p>
+    <p class="description"></p>
+  </section>
+</html>

@@ -1,0 +1,93 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Libre Baskerville', Georgia, serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  height: 100vh;
+  max-width: 50rem;
+
+  text-align: center;
+
+  background-color: #000;
+  color: #fff;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 800;
+  font-family: 'League Spartan', Tahoma, sans-serif;
+  text-transform: uppercase;
+}
+
+fieldset {
+  padding: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+legend {
+  font-style: italic;
+  font-weight: 800;
+}
+
+select {
+  margin-top: 1rem;
+}
+
+button {
+  margin-top: 1.5rem;
+  padding: 0.5rem 2rem;
+  border-style: none;
+  border-radius: 30px;
+
+  font-size: 18px;
+  font-weight: 800;
+}
+
+h2 {
+  margin-top: 4rem;
+  font-size: 30px;
+  font-weight: 800;
+  font-family: 'League Spartan', Tahoma, sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.jobs {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 800;
+}
+
+.description {
+  margin-top: 1rem;
+}
+
+/* styles for various classes */
+.tank {
+  background: rgb(0,0,0);
+  background: linear-gradient(rgba(0,0,0,1) 0%, rgba(10,20,93,1) 75%, rgba(0,142,255,1) 100%); 
+}
+
+.healer {
+  background: rgb(0,0,0);
+  background: linear-gradient(rgba(0,0,0,1) 0%, rgba(10,93,18,1) 75%, rgba(155,255,0,1) 100%); 
+}
+
+.dps {
+  background: rgb(0,0,0);
+  background: linear-gradient(rgba(0,0,0,1) 0%, rgba(93,10,10,1) 75%, rgba(255,0,95,1) 100%); 
+}
